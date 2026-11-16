@@ -1,0 +1,300 @@
+{
+ "id": "021-pobre-con-nomina",
+ "titulo_corto": "Pobre con nómina",
+ "fuente": "INE: Estructura Salarial 2024 · Condiciones de Vida 2025",
+ "vestuario": "contramaestre",
+ "estilo": "25d",
+ "escenas": [
+  {
+   "tipo": "ticket",
+   "entrada": "instantanea",
+   "adelanto": 1.6,
+   "voz": "Dieciséis mil quinientos euros al año: el sueldo que más se repite en España.",
+   "emocion": [
+    "explica"
+   ],
+   "p": {
+    "titulo": "TU NÓMINA, AL AÑO",
+    "filas": [
+     [
+      "El más común",
+      "16.520 €"
+     ],
+     [
+      "En casa",
+      "pareja + 2 niños"
+     ]
+    ],
+    "total": [
+     "¿Llega?",
+     "NO"
+    ],
+    "top": 360,
+    "fs": 50
+   },
+   "calculin": {
+    "x": 540,
+    "s": 1.05
+   }
+  },
+  {
+   "tipo": "iconos",
+   "transicion": "corte",
+   "emocion": [
+    "explica"
+   ],
+   "enfasis": [
+    "solo"
+   ],
+   "p": {
+    "texto": "En casa: [4]",
+    "sub": "y entra [1 sueldo]",
+    "icono": "persona",
+    "n": 4,
+    "cols": 4
+   },
+   "voz": "Si en casa sois cuatro y entra solo tu sueldo,"
+  },
+  {
+   "tipo": "grande",
+   "emocion": [
+    "rabia"
+   ],
+   "enfasis": [
+    "pobreza."
+   ],
+   "p": {
+    "texto": "POBRE",
+    "sub": "con nómina · [riesgo de pobreza] (INE)",
+    "color": "rojo",
+    "tam": 210
+   },
+   "voz": "para el INE estáis en riesgo de pobreza."
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Cómo va a ser pobre alguien que trabaja todo el año?",
+   "emocion": [
+    "duda"
+   ],
+   "enfasis": [
+    "trabaja"
+   ],
+   "p": {
+    "texto": "¿Pobre… [trabajando] todo el año?",
+    "tam": 86
+   }
+  },
+  {
+   "tipo": "cifra",
+   "voz": "El INE pone la línea en doce mil doscientos veinte euros al año para una persona sola.",
+   "emocion": [
+    "explica"
+   ],
+   "p": {
+    "intro": "Línea de pobreza · 1 persona:",
+    "desde": 0,
+    "hasta": 12220,
+    "sufijo": " €",
+    "retardo": 0.4,
+    "dur": 1.3,
+    "tam": 180,
+    "pie": "INE · Condiciones de Vida 2025",
+    "icono": "casa",
+    "cara": "o"
+   }
+  },
+  {
+   "tipo": "casa",
+   "voz": "Con pareja y dos niños, sube a veinticinco mil seiscientos sesenta.",
+   "emocion": [
+    "explica",
+    "sorpresa"
+   ],
+   "p": {
+    "texto": "Pareja + 2 niños: la línea [sube]",
+    "desde": 12220,
+    "precio": 25663,
+    "sub": "INE · umbral de riesgo de pobreza"
+   }
+  },
+  {
+   "tipo": "comparar",
+   "voz": "Tu sueldo, dieciséis mil quinientos. Y eso antes de impuestos.",
+   "emocion": [
+    "explica",
+    "rabia"
+   ],
+   "enfasis": [
+    "antes"
+   ],
+   "p": {
+    "a": {
+     "etiqueta": "tu sueldo (bruto)",
+     "valor": "16.520 €",
+     "num": 16520
+    },
+    "b": {
+     "etiqueta": "línea de pobreza familia",
+     "valor": "25.663 €"
+    },
+    "ratio": 1.553
+   }
+  },
+  {
+   "tipo": "golpe",
+   "voz": "Os faltan más de nueve mil euros al año.",
+   "emocion": [
+    "rabia"
+   ],
+   "p": {
+    "texto": "−9.142 €",
+    "sub": "al año · trabajando",
+    "color": "rojo",
+    "tam": 150
+   }
+  },
+  {
+   "tipo": "frase",
+   "voz": "Y no estás en paro: madrugas, fichas y cotizas.",
+   "emocion": [
+    "tristeza",
+    "rabia"
+   ],
+   "enfasis": [
+    "cotizas."
+   ],
+   "p": {
+    "texto": "Madrugas, fichas, cotizas… [y no llega]",
+    "icono": "billete",
+    "mano": "",
+    "tam": 82
+   }
+  },
+  {
+   "tipo": "tarta",
+   "voz": "Y no es raro: más de una de cada diez personas con trabajo está en riesgo de pobreza.",
+   "emocion": [
+    "explica",
+    "sorpresa"
+   ],
+   "p": {
+    "titulo": "Con trabajo… y en [riesgo de pobreza]",
+    "sub": "INE 2025 · hombres 12,1 % · mujeres 10,2 %",
+    "seg": [
+     [
+      "riesgo",
+      11,
+      "rojo",
+      "+1 de cada 10"
+     ],
+     [
+      "resto",
+      89,
+      "",
+      "el resto"
+     ]
+    ],
+    "centro": "+10 %"
+   }
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Y en tu casa, llegaríais con un solo sueldo?",
+   "emocion": [
+    "duda"
+   ],
+   "p": {
+    "texto": "¿En tu casa llegaríais con [un solo sueldo]?",
+    "tam": 84,
+    "icono": "casa"
+   }
+  },
+  {
+   "tipo": "balanza",
+   "voz": "Fíjate: con el sueldo más común, una familia necesita dos nóminas para salir de ahí.",
+   "emocion": [
+    "determinado"
+   ],
+   "enfasis": [
+    "dos"
+   ],
+   "p": {
+    "texto": "Hacen falta [dos nóminas]",
+    "izq": {
+     "etiqueta": "1 sueldo",
+     "valor": "16.520 €",
+     "color": "rojo"
+    },
+    "der": {
+     "etiqueta": "línea familia",
+     "valor": "25.663 €"
+    },
+    "inclina": 14
+   }
+  },
+  {
+   "tipo": "cifra",
+   "voz": "Y más de un tercio de la gente no puede pagar ni un gasto imprevisto.",
+   "emocion": [
+    "sorpresa",
+    "tristeza"
+   ],
+   "enfasis": [
+    "imprevisto."
+   ],
+   "p": {
+    "intro": "No pueden pagar un imprevisto:",
+    "desde": 0,
+    "hasta": 36.4,
+    "dec": 1,
+    "sufijo": " %",
+    "retardo": 0.3,
+    "dur": 1.1,
+    "tam": 200,
+    "color": "rojo",
+    "pie": "INE · Condiciones de Vida 2025",
+    "cara": "triste"
+   }
+  },
+  {
+   "tipo": "cita",
+   "voz": "Si trabajando no llegas, el problema no eres tú. Es el sueldo.",
+   "emocion": [
+    "determinado"
+   ],
+   "enfasis": [
+    "sueldo."
+   ],
+   "p": {
+    "texto": "Si trabajando no llegas, {el problema no eres tú}. [Es el sueldo.]"
+   }
+  },
+  {
+   "tipo": "golpe",
+   "emocion": [
+    "rabia"
+   ],
+   "enfasis": [
+    "propina"
+   ],
+   "p": {
+    "texto": "PROPINA",
+    "sub": "con contrato",
+    "color": "rojo",
+    "tam": 140
+   },
+   "voz": "Un sueldo que no te saca de pobre es una propina con contrato."
+  },
+  {
+   "tipo": "cierre",
+   "emocion": [
+    "celebra"
+   ],
+   "p": {
+    "texto": "Próximo: este sueldo [+ el alquiler]"
+   },
+   "voz": "Sígueme: en el próximo, sumamos el alquiler."
+  }
+ ]
+}
