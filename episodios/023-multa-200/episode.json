@@ -1,0 +1,192 @@
+{
+ "id": "023-multa-200",
+ "titulo_corto": "La multa de 200 € que no pagas",
+ "fuente": "RDL 6/2015 (Ley de Tráfico) arts. 76.g, 80, 94, 110 y anexo II · DGT · Ley 58/2003 art. 28",
+ "entrada_ya": true,
+ "escenas": [
+  {
+   "tipo": "ticket",
+   "voz": "Doscientos euros de multa por coger el móvil al volante. Puedes acabar pagando cien… o doscientos cuarenta.",
+   "p": {
+    "titulo": "MULTA · MÓVIL AL VOLANTE",
+    "filas": [
+     [
+      "Infracción grave",
+      "200 €"
+     ],
+     [
+      "Puntos",
+      "−6",
+      "rojo"
+     ]
+    ],
+    "total": [
+     "Pagarás",
+     "100 o 240 €"
+    ],
+    "top": 380
+   }
+  },
+  {
+   "tipo": "grande",
+   "voz": "Y te quitan seis puntos, pagues como pagues.",
+   "p": {
+    "texto": "−6 puntos",
+    "sub": "pagues como pagues"
+   }
+  },
+  {
+   "tipo": "linea",
+   "voz": "Todo empieza cuando te llega la multa: tienes veinte días naturales.",
+   "p": {
+    "titulo": "El reloj",
+    "puntos": [
+     "Te notifican",
+     "20 días naturales",
+     "[La mitad]"
+    ],
+    "dur": 0.6
+   }
+  },
+  {
+   "tipo": "cifra",
+   "voz": "Si pagas en ese plazo, la multa baja a la mitad: cien euros.",
+   "p": {
+    "intro": "Pronto pago:",
+    "desde": 200,
+    "hasta": 100,
+    "sufijo": " €",
+    "color": "acento",
+    "pie": "−50 % · art. 94 Ley de Tráfico",
+    "icono": "hucha",
+    "cara": "o"
+   }
+  },
+  {
+   "tipo": "frase",
+   "voz": "Pero tiene letra pequeña: si pagas así, renuncias a recurrir.",
+   "p": {
+    "texto": "Pagas la mitad = [no recurres]"
+   },
+   "enfasis": [
+    "recurrir"
+   ]
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Y si no la pagas, ni la recurres, ni haces nada?",
+   "p": {
+    "texto": "¿Y si [no haces nada]?",
+    "icono": "tarjeta"
+   }
+  },
+  {
+   "tipo": "lista",
+   "voz": "Primero, pierdes el descuento: vuelven a ser doscientos.",
+   "p": {
+    "items": [
+     "Pierdes el descuento",
+     "Vuelven a ser 200 €"
+    ]
+   }
+  },
+  {
+   "tipo": "contador",
+   "voz": "Y cuando la sanción es firme, aún tienes quince días naturales más para pagarla.",
+   "p": {
+    "desde": 0,
+    "hasta": 15,
+    "sufijo": " días",
+    "pie": "art. 110 Ley de Tráfico",
+    "intro": "Sanción firme:",
+    "prefijo": "+",
+    "ejeIni": "firme",
+    "ejeFin": "día 15"
+   }
+  },
+  {
+   "tipo": "grande",
+   "voz": "Y si sigues sin pagar, pasa a Hacienda con un veinte por ciento de recargo.",
+   "p": {
+    "texto": "+20 %",
+    "sub": "recargo de apremio · Hacienda"
+   },
+   "enfasis": [
+    "Hacienda"
+   ]
+  },
+  {
+   "tipo": "precio",
+   "voz": "Tu multa de doscientos euros se convierte en doscientos cuarenta. Y encima, intereses de demora.",
+   "p": {
+    "titulo": "La [misma] multa",
+    "antes": "Al llegar",
+    "despues": "En Hacienda",
+    "desde": 200,
+    "hasta": 240
+   }
+  },
+  {
+   "tipo": "balanza",
+   "voz": "Entre pagar pronto y no hacer nada, la misma multa va de cien a doscientos cuarenta euros.",
+   "p": {
+    "texto": "La misma multa: [×2,4]",
+    "izq": {
+     "etiqueta": "pronto",
+     "valor": "100 €"
+    },
+    "der": {
+     "etiqueta": "tarde",
+     "valor": "240 €",
+     "color": "rojo"
+    },
+    "inclina": 14
+   }
+  },
+  {
+   "tipo": "cifra",
+   "voz": "Ciento cuarenta euros de diferencia, por dejarla en un cajón.",
+   "p": {
+    "intro": "La diferencia:",
+    "hasta": 140,
+    "prefijo": "+",
+    "sufijo": " €",
+    "color": "rojo",
+    "pie": "por no hacer nada",
+    "icono": "tarjeta",
+    "cara": "o"
+   },
+   "enfasis": [
+    "cajón"
+   ]
+  },
+  {
+   "tipo": "frase",
+   "voz": "Fíjate: en la vía de apremio, Hacienda puede llegar a embargar tu cuenta.",
+   "p": {
+    "texto": "Puede llegar el [embargo]",
+    "icono": "banco"
+   },
+   "enfasis": [
+    "embargar"
+   ]
+  },
+  {
+   "tipo": "cita",
+   "voz": "La multa no crece por lo que hiciste. Crece por lo que tardas.",
+   "p": {
+    "texto": "No crece por lo que hiciste. {Crece por lo que} [tardas]."
+   },
+   "enfasis": [
+    "tardas"
+   ]
+  },
+  {
+   "tipo": "cierre",
+   "voz": "¿Y qué pasa si te jubilas a los sesenta y tres? Te lo cuento en el próximo vídeo. Sígueme para no perdértelo.",
+   "p": {
+    "texto": "Próximo: ¿y si te jubilas [a los 63]?"
+   }
+  }
+ ]
+}

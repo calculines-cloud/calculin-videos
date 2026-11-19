@@ -1,0 +1,158 @@
+{
+ "id": "025-banco-quiebra",
+ "titulo_corto": "Si tu banco quiebra",
+ "fuente": "RDL 16/2011 art. 10 · RD 2606/1996 arts. 7, 7 bis y 9 (Fondo de Garantía de Depósitos, BOE)",
+ "entrada_ya": true,
+ "escenas": [
+  {
+   "tipo": "grande",
+   "voz": "Cien mil euros. Es lo que te garantizan si tu banco quiebra.",
+   "p": {
+    "texto": "100.000 €",
+    "sub": "garantizados si tu banco quiebra",
+    "color": "acento",
+    "icono": "banco",
+    "cara": "o"
+   }
+  },
+  {
+   "tipo": "cifra",
+   "voz": "Si tenías ciento cincuenta mil, cincuenta mil se quedan sin esa red.",
+   "p": {
+    "intro": "Sin garantía:",
+    "hasta": 50000,
+    "sufijo": " €",
+    "color": "rojo",
+    "pie": "de 150.000 € en un solo banco",
+    "icono": "banco",
+    "cara": "o"
+   }
+  },
+  {
+   "tipo": "linea",
+   "voz": "Lo cubre el Fondo de Garantía de Depósitos, y lo fija un Real Decreto-ley de dos mil once.",
+   "p": {
+    "titulo": "¿Quién te paga?",
+    "puntos": [
+     "Tu banco quiebra",
+     "Fondo de Garantía",
+     "[Te paga a ti]"
+    ],
+    "dur": 0.6
+   }
+  },
+  {
+   "tipo": "lista",
+   "voz": "Cuentas corrientes, cuentas de ahorro y depósitos a plazo, todo sumado: hasta cien mil por persona y por banco.",
+   "p": {
+    "items": [
+     "Cuentas corrientes",
+     "Cuentas de ahorro",
+     "Depósitos a plazo"
+    ],
+    "icono": "banco"
+   }
+  },
+  {
+   "tipo": "contador",
+   "voz": "Y te lo tienen que pagar en siete días hábiles.",
+   "p": {
+    "desde": 0,
+    "hasta": 7,
+    "sufijo": " días",
+    "pie": "hábiles · RD 2606/1996",
+    "intro": "Te pagan en",
+    "ejeIni": "quiebra",
+    "ejeFin": "día 7"
+   }
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Y si la cuenta es de dos personas, a medias?",
+   "p": {
+    "texto": "¿Y si sois [dos titulares]?",
+    "icono": "banco"
+   }
+  },
+  {
+   "tipo": "iconos",
+   "voz": "Se reparte entre los titulares: con dos, cien mil cada uno, hasta doscientos mil.",
+   "p": {
+    "texto": "[100.000 €] por titular",
+    "n": 2,
+    "icono": "persona",
+    "tam": 300
+   }
+  },
+  {
+   "tipo": "balanza",
+   "voz": "Pero ojo: el límite es por banco, no por cuenta. Diez cuentas en el mismo banco suman un solo límite.",
+   "p": {
+    "texto": "Por [banco], no por cuenta",
+    "izq": {
+     "etiqueta": "1 cuenta",
+     "valor": "100.000 €"
+    },
+    "der": {
+     "etiqueta": "10 cuentas",
+     "valor": "100.000 €"
+    },
+    "inclina": 0
+   },
+   "enfasis": [
+    "banco"
+   ]
+  },
+  {
+   "tipo": "frase",
+   "voz": "Fíjate: las acciones o fondos que el banco te guarda tienen otra garantía de cien mil, si no te los devuelve. Si bajan de precio, no.",
+   "p": {
+    "texto": "Valores: [otros 100.000 €]",
+    "tam": 76
+   }
+  },
+  {
+   "tipo": "casa",
+   "voz": "Y hay una excepción: si acabas de vender tu casa, ese dinero queda cubierto entero durante tres meses.",
+   "p": {
+    "texto": "Vendes tu casa: [sin límite]",
+    "precio": 250000,
+    "desde": 200000,
+    "sub": "cubierto entero 3 meses"
+   }
+  },
+  {
+   "tipo": "comparar",
+   "voz": "Ciento cincuenta mil en la cuenta, cien mil garantizados: un tercio se queda fuera.",
+   "p": {
+    "a": {
+     "etiqueta": "En la cuenta",
+     "valor": "150.000 €",
+     "num": 150000
+    },
+    "b": {
+     "etiqueta": "Garantizado",
+     "valor": "100.000 €"
+    },
+    "ratio": 0.667
+   }
+  },
+  {
+   "tipo": "cita",
+   "voz": "El banco guarda tu dinero. El fondo, solo una parte.",
+   "p": {
+    "texto": "El banco guarda tu dinero. {El fondo,} [solo una parte]."
+   },
+   "enfasis": [
+    "parte"
+   ]
+  },
+  {
+   "tipo": "cierre",
+   "voz": "¿Y qué pasa si se te olvidó presentar la renta? Te lo cuento en el próximo vídeo. Sígueme para no perdértelo.",
+   "p": {
+    "texto": "Próximo: ¿y si presentas la renta [tarde]?"
+   }
+  }
+ ]
+}

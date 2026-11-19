@@ -1,0 +1,170 @@
+{
+ "id": "026-renta-tarde",
+ "titulo_corto": "Presentar la renta tarde",
+ "fuente": "Ley 58/2003 General Tributaria arts. 27 y 191 (BOE) · escenario: renta 2025 a pagar 1.000 €, plazo hasta 30-jun-2026",
+ "entrada_ya": true,
+ "escenas": [
+  {
+   "tipo": "balanza",
+   "voz": "Cincuenta euros o quinientos. Es lo que puede costarte presentar la renta tarde.",
+   "p": {
+    "texto": "Renta tarde: [50 o 500 €]",
+    "izq": {
+     "etiqueta": "llegas tú",
+     "valor": "50 €"
+    },
+    "der": {
+     "etiqueta": "llega Hacienda",
+     "valor": "500 €",
+     "color": "rojo"
+    },
+    "inclina": 14
+   }
+  },
+  {
+   "tipo": "cifra",
+   "voz": "Supón que te salía a pagar mil euros, y el plazo acabó el treinta de junio.",
+   "p": {
+    "intro": "Te salía a pagar:",
+    "hasta": 1000,
+    "sufijo": " €",
+    "pie": "plazo: 30 de junio de 2026",
+    "icono": "hucha",
+    "cara": "plana"
+   }
+  },
+  {
+   "tipo": "linea",
+   "voz": "Si la presentas tú, sin que te avisen, pagas un recargo: un uno por ciento, más otro uno por cada mes completo de retraso.",
+   "p": {
+    "titulo": "Si llegas tú primero",
+    "puntos": [
+     "1 %",
+     "+1 % por mes completo",
+     "[Sin multa]"
+    ],
+    "dur": 0.6
+   }
+  },
+  {
+   "tipo": "ticket",
+   "voz": "En noviembre, con cuatro meses completos de retraso, es un cinco por ciento: cincuenta euros.",
+   "p": {
+    "titulo": "RECARGO · NOVIEMBRE",
+    "filas": [
+     [
+      "A pagar",
+      "1.000 €"
+     ],
+     [
+      "1 % + 4 meses",
+      "5 %"
+     ]
+    ],
+    "total": [
+     "Recargo",
+     "50 €"
+    ],
+    "top": 420
+   }
+  },
+  {
+   "tipo": "cifra",
+   "voz": "Y si pagas todo a la vez, el recargo baja un veinticinco por ciento: treinta y siete con cincuenta.",
+   "p": {
+    "intro": "Pagando todo de golpe:",
+    "desde": 50,
+    "hasta": 37.5,
+    "dec": 2,
+    "sufijo": " €",
+    "color": "acento",
+    "pie": "−25 % · art. 27 Ley General Tributaria",
+    "icono": "hucha",
+    "cara": "o"
+   }
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Y si esperas a que Hacienda te escriba primero?",
+   "p": {
+    "texto": "¿Y si te escribe [Hacienda]?",
+    "icono": "banco"
+   }
+  },
+  {
+   "tipo": "grande",
+   "voz": "Entonces ya no es un recargo: es una multa que empieza en el cincuenta por ciento.",
+   "p": {
+    "texto": "Multa: 50 %",
+    "sub": "de lo que no pagaste",
+    "tam": 120
+   },
+   "enfasis": [
+    "multa"
+   ]
+  },
+  {
+   "tipo": "precio",
+   "voz": "Sobre tus mil euros, quinientos de multa antes de reducciones, más los intereses de demora.",
+   "p": {
+    "titulo": "La [misma] renta",
+    "antes": "Llegas tú",
+    "despues": "Llega Hacienda",
+    "desde": 50,
+    "hasta": 500
+   }
+  },
+  {
+   "tipo": "comparar",
+   "voz": "Diez veces más, por la misma renta y el mismo retraso.",
+   "p": {
+    "a": {
+     "etiqueta": "Recargo",
+     "valor": "50 €",
+     "num": 50
+    },
+    "b": {
+     "etiqueta": "Multa",
+     "valor": "500 €"
+    },
+    "ratio": 10,
+    "colorB": "rojo"
+   }
+  },
+  {
+   "tipo": "frase",
+   "voz": "Fíjate: si pasa más de un año, el recargo sube al quince por ciento, más intereses de demora.",
+   "p": {
+    "texto": "Más de 12 meses: [15 %]"
+   }
+  },
+  {
+   "tipo": "lista",
+   "voz": "Lo que cambia la cuenta es quién llega primero, cuántos meses pasan y si pagas de golpe.",
+   "p": {
+    "items": [
+     "Quién llega primero",
+     "Cuántos meses pasan",
+     "Si pagas de golpe"
+    ]
+   }
+  },
+  {
+   "tipo": "cita",
+   "voz": "Con Hacienda no paga más el que debe. Paga más el que llega tarde.",
+   "p": {
+    "texto": "No paga más el que debe. {Paga más el que} [llega tarde]."
+   },
+   "enfasis": [
+    "tarde"
+   ]
+  },
+  {
+   "tipo": "cierre",
+   "voz": "¿Y qué pasa si alargas tu hipoteca cinco años? Te lo cuento en el próximo vídeo. Sígueme para no perdértelo.",
+   "p": {
+    "texto": "Próximo: tu hipoteca [5 años más]"
+   }
+  }
+ ]
+}

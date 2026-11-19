@@ -1,0 +1,181 @@
+{
+ "id": "027-hipoteca-30",
+ "titulo_corto": "Hipoteca a 25 o a 30 años",
+ "fuente": "Escenario: 180.000 € al 3 % fijo (tipo de referencia BdE sept-2026 3,189 % TAE, BOE 20-oct-2026; INE hipotecas ago-2026 3,08 %)",
+ "entrada_ya": true,
+ "escenas": [
+  {
+   "tipo": "casa",
+   "voz": "Hipoteca de ciento ochenta mil euros. Alargarla cinco años te baja la cuota noventa y cuatro euros… y te cuesta diecisiete mil.",
+   "p": {
+    "texto": "Hipoteca de [180.000 €]",
+    "precio": 180000,
+    "desde": 180000,
+    "sub": "¿25 o 30 años?"
+   }
+  },
+  {
+   "tipo": "grande",
+   "voz": "Diecisiete mil euros más de intereses.",
+   "p": {
+    "texto": "+17.125 €",
+    "sub": "de intereses",
+    "color": "rojo"
+   }
+  },
+  {
+   "tipo": "linea",
+   "voz": "Supón un tres por ciento fijo, cerca de lo que marcan hoy las hipotecas en España.",
+   "p": {
+    "titulo": "El escenario",
+    "puntos": [
+     "180.000 €",
+     "3 % fijo",
+     "[25 o 30 años]"
+    ],
+    "dur": 0.6
+   }
+  },
+  {
+   "tipo": "comparar",
+   "voz": "A veinticinco años pagas ochocientos cincuenta y tres euros al mes. A treinta, setecientos cincuenta y ocho.",
+   "p": {
+    "a": {
+     "etiqueta": "25 años",
+     "valor": "853 €/mes",
+     "num": 853
+    },
+    "b": {
+     "etiqueta": "30 años",
+     "valor": "758 €/mes"
+    },
+    "ratio": 0.889
+   }
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "Parece un alivio, ¿verdad? Mira lo que pasa con los intereses.",
+   "p": {
+    "texto": "¿[Alivio]… o trampa?",
+    "icono": "casa"
+   },
+   "enfasis": [
+    "alivio"
+   ]
+  },
+  {
+   "tipo": "barras",
+   "voz": "A veinte años, pagas cincuenta y nueve mil euros de intereses. A veinticinco, setenta y seis mil. A treinta, noventa y tres mil. A treinta y cinco, ciento diez mil.",
+   "p": {
+    "titulo": "Intereses totales",
+    "sub": "180.000 € al 3 % fijo",
+    "datos": [
+     [
+      "20 años",
+      59586
+     ],
+     [
+      "25 años",
+      76074
+     ],
+     [
+      "30 años",
+      93199
+     ],
+     [
+      "35 años",
+      110947
+     ]
+    ],
+    "resaltar": [
+     "30 años"
+    ],
+    "colorRes": "rojo",
+    "fmt": "# €",
+    "dec": 0,
+    "escala": 0.0036,
+    "fs": 38,
+    "fsv": 34
+   }
+  },
+  {
+   "tipo": "cifra",
+   "voz": "Esos cinco años de más son sesenta cuotas extra: cuarenta y cinco mil quinientos euros.",
+   "p": {
+    "intro": "60 cuotas más:",
+    "hasta": 45533,
+    "sufijo": " €",
+    "color": "rojo",
+    "pie": "60 × 758,89 €",
+    "icono": "casa",
+    "cara": "o"
+   }
+  },
+  {
+   "tipo": "balanza",
+   "voz": "Frente a los veintiocho mil cuatrocientos que te ahorras antes en las cuotas.",
+   "p": {
+    "texto": "[−17.125 €] de diferencia",
+    "izq": {
+     "etiqueta": "ahorras",
+     "valor": "28.407 €"
+    },
+    "der": {
+     "etiqueta": "pagas de más",
+     "valor": "45.533 €",
+     "color": "rojo"
+    },
+    "inclina": 12
+   }
+  },
+  {
+   "tipo": "frase",
+   "voz": "Fíjate: el tipo es el mismo. Lo que cambia es cuánto tiempo debes el dinero.",
+   "p": {
+    "texto": "Mismo tipo. [Más tiempo.]",
+    "icono": "casa"
+   },
+   "enfasis": [
+    "tiempo"
+   ]
+  },
+  {
+   "tipo": "iconos",
+   "voz": "Cinco años más de recibos: sesenta meses más pagando al banco.",
+   "p": {
+    "texto": "[5 años] más de recibos",
+    "n": 5,
+    "icono": "billete",
+    "cols": 5
+   }
+  },
+  {
+   "tipo": "lista",
+   "voz": "En este escenario, tres cosas mueven la cuenta: el tipo, los años y lo que amortices antes.",
+   "p": {
+    "items": [
+     "El tipo",
+     "Los años",
+     "Lo que amortices antes"
+    ]
+   }
+  },
+  {
+   "tipo": "cita",
+   "voz": "Una cuota más baja no es una hipoteca más barata. Solo es más larga.",
+   "p": {
+    "texto": "Cuota más baja no es más barata. {Solo es} [más larga]."
+   },
+   "enfasis": [
+    "larga"
+   ]
+  },
+  {
+   "tipo": "cierre",
+   "voz": "¿Y qué pasa con un billete de cincuenta euros del año dos mil dos? Te lo cuento en el próximo vídeo.",
+   "p": {
+    "texto": "Próximo: tu billete de [50 €] de 2002"
+   }
+  }
+ ]
+}

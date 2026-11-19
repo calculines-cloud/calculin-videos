@@ -1,0 +1,197 @@
+{
+ "id": "022-paro-2000",
+ "titulo_corto": "Te quedas en paro cobrando 2.000 €",
+ "fuente": "LGSS arts. 269 y 270 (BOE) · IPREM 2026 600 €/mes (Seguridad Social) · ET art. 56",
+ "entrada_ya": true,
+ "escenas": [
+  {
+   "tipo": "cifra",
+   "voz": "Cobras dos mil euros al mes y te quedas en el paro. Como mucho, cobrarás mil doscientos veinticinco.",
+   "p": {
+    "intro": "Tu paro, como máximo:",
+    "desde": 2000,
+    "hasta": 1225,
+    "sufijo": " €",
+    "retardo": 0.25,
+    "dur": 1.5,
+    "color": "rojo",
+    "pie": "al mes, brutos, sin hijos",
+    "icono": "hucha",
+    "cara": "o"
+   }
+  },
+  {
+   "tipo": "grande",
+   "voz": "Setecientos setenta y cinco euros menos cada mes.",
+   "p": {
+    "texto": "−775 €",
+    "sub": "cada mes, desde el primer día"
+   }
+  },
+  {
+   "tipo": "linea",
+   "voz": "La ley dice: el setenta por ciento de tu base los primeros seis meses, y el sesenta después.",
+   "p": {
+    "titulo": "Lo que dice la ley",
+    "puntos": [
+     "Días 1–180: 70 %",
+     "Desde el 181: 60 %",
+     "[Con un tope]"
+    ],
+    "dur": 0.6
+   }
+  },
+  {
+   "tipo": "ticket",
+   "voz": "Con las pagas extra, tu base son unos dos mil trescientos treinta y tres. El setenta por ciento: mil seiscientos treinta y tres.",
+   "p": {
+    "titulo": "TU PARO SIN TOPE",
+    "filas": [
+     [
+      "Base (14 pagas ÷ 12)",
+      "2.333 €"
+     ],
+     [
+      "70 % de la base",
+      "1.633 €"
+     ]
+    ],
+    "total": [
+     "Pero el tope",
+     "1.225 €"
+    ],
+    "top": 400
+   }
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Y por qué no te llega? Por un número que casi nadie mira: el IPREM.",
+   "p": {
+    "texto": "¿Quién pone [el tope]?",
+    "icono": "banco"
+   },
+   "enfasis": [
+    "IPREM"
+   ]
+  },
+  {
+   "tipo": "cifra",
+   "voz": "En dos mil veintiséis, el IPREM es de seiscientos euros al mes.",
+   "p": {
+    "intro": "IPREM 2026:",
+    "hasta": 600,
+    "sufijo": " €",
+    "pie": "al mes · Seguridad Social",
+    "icono": "banco",
+    "cara": "plana"
+   }
+  },
+  {
+   "tipo": "barras",
+   "voz": "El tope es el ciento setenta y cinco por ciento de setecientos: mil doscientos veinticinco sin hijos. Con hijos, algo más.",
+   "p": {
+    "titulo": "Paro máximo al mes",
+    "sub": "€ brutos · 2026 · art. 270 LGSS",
+    "datos": [
+     [
+      "Sin hijos",
+      1225
+     ],
+     [
+      "1 hijo",
+      1400
+     ],
+     [
+      "2 o más",
+      1575
+     ]
+    ],
+    "resaltar": [
+     "Sin hijos"
+    ],
+    "fmt": "# €",
+    "dec": 0,
+    "escala": 0.28,
+    "fs": 42,
+    "fsv": 46
+   }
+  },
+  {
+   "tipo": "balanza",
+   "voz": "Da igual que cobres dos mil o cuatro mil: el tope es el mismo.",
+   "p": {
+    "texto": "[El mismo tope]",
+    "izq": {
+     "etiqueta": "cobrabas 2.000 €",
+     "valor": "1.225 €"
+    },
+    "der": {
+     "etiqueta": "cobrabas 4.000 €",
+     "valor": "1.225 €"
+    },
+    "inclina": 0
+   },
+   "enfasis": [
+    "mismo"
+   ]
+  },
+  {
+   "tipo": "frase",
+   "voz": "Fíjate: son brutos. De ahí todavía salen tu cotización y la retención de Hacienda.",
+   "p": {
+    "texto": "Y son [brutos]",
+    "icono": "hucha"
+   },
+   "enfasis": [
+    "brutos"
+   ]
+  },
+  {
+   "tipo": "contador",
+   "voz": "Con seis años cotizados, lo cobras hasta setecientos veinte días.",
+   "p": {
+    "desde": 0,
+    "hasta": 720,
+    "sufijo": " días",
+    "pie": "con 2.160 días cotizados (6 años)",
+    "intro": "Hasta",
+    "ejeIni": "día 1",
+    "ejeFin": "día 720"
+   }
+  },
+  {
+   "tipo": "comparar",
+   "voz": "En un año, con tu nómina cobrabas veintiocho mil euros. Con el paro máximo, catorce mil setecientos.",
+   "p": {
+    "a": {
+     "etiqueta": "Nómina (14 pagas)",
+     "valor": "28.000 €",
+     "num": 28000
+    },
+    "b": {
+     "etiqueta": "Paro máximo (12 meses)",
+     "valor": "14.700 €"
+    },
+    "ratio": 0.525,
+    "colorB": "rojo"
+   }
+  },
+  {
+   "tipo": "cita",
+   "voz": "El paro no mira cuánto cobrabas. Mira el tope.",
+   "p": {
+    "texto": "El paro no mira tu sueldo. {Mira} [el tope]."
+   },
+   "enfasis": [
+    "tope"
+   ]
+  },
+  {
+   "tipo": "cierre",
+   "voz": "¿Y qué pasa si te ponen una multa de doscientos euros y no la pagas? Te lo cuento en el próximo vídeo.",
+   "p": {
+    "texto": "Próximo: la multa de [200 €] que no pagas"
+   }
+  }
+ ]
+}

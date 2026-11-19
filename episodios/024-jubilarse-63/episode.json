@@ -1,0 +1,184 @@
+{
+ "id": "024-jubilarse-63",
+ "titulo_corto": "Si te jubilas a los 63",
+ "fuente": "Seguridad Social: edad de jubilación 2026 · LGSS art. 208 (coeficientes, BOE) · escenario con pensión de 1.500 €",
+ "entrada_ya": true,
+ "escenas": [
+  {
+   "tipo": "precio",
+   "voz": "Mil quinientos euros de pensión a los sesenta y cinco. A los sesenta y tres, pueden quedarse en mil ciento ochenta y cinco.",
+   "p": {
+    "titulo": "Tu pensión",
+    "antes": "A los 65",
+    "despues": "A los 63",
+    "desde": 1500,
+    "hasta": 1185
+   }
+  },
+  {
+   "tipo": "grande",
+   "voz": "Trescientos quince euros menos al mes. Para siempre.",
+   "p": {
+    "texto": "−315 €/mes",
+    "sub": "para siempre"
+   },
+   "enfasis": [
+    "siempre"
+   ]
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Y quién puede jubilarse a los sesenta y tres en dos mil veintiséis?",
+   "p": {
+    "texto": "¿Quién puede [a los 63]?",
+    "icono": "hucha"
+   }
+  },
+  {
+   "tipo": "linea",
+   "voz": "Solo con treinta y ocho años y tres meses cotizados: tu edad normal son los sesenta y cinco, y puedes adelantarte dos años.",
+   "p": {
+    "titulo": "Los requisitos (2026)",
+    "puntos": [
+     "38 años y 3 meses cotizados",
+     "Edad normal: 65",
+     "[Hasta 2 años antes]"
+    ],
+    "dur": 0.6
+   }
+  },
+  {
+   "tipo": "frase",
+   "voz": "Con menos, tu edad son sesenta y seis años y diez meses: a los sesenta y tres no llegas.",
+   "p": {
+    "texto": "Menos cotizado = [66 años y 10 meses]",
+    "tam": 76
+   }
+  },
+  {
+   "tipo": "barras",
+   "voz": "El recorte por adelantarte dos años va del veintiuno al trece por ciento, según lo cotizado.",
+   "p": {
+    "titulo": "Recorte con 24 meses",
+    "sub": "años cotizados · art. 208 LGSS",
+    "datos": [
+     [
+      "< 38,5",
+      21
+     ],
+     [
+      "38,5–41,5",
+      19
+     ],
+     [
+      "41,5–44,5",
+      17
+     ],
+     [
+      "44,5 o más",
+      13
+     ]
+    ],
+    "resaltar": [
+     "< 38,5"
+    ],
+    "colorRes": "rojo",
+    "fmt": "−# %",
+    "dec": 0,
+    "escala": 18,
+    "fs": 38,
+    "fsv": 46
+   }
+  },
+  {
+   "tipo": "ticket",
+   "voz": "Con treinta y ocho años y tres meses te toca el veintiuno: de mil quinientos a mil ciento ochenta y cinco.",
+   "p": {
+    "titulo": "TU PENSIÓN A LOS 63",
+    "filas": [
+     [
+      "A los 65",
+      "1.500 €"
+     ],
+     [
+      "Recorte 21 %",
+      "−315 €",
+      "rojo"
+     ]
+    ],
+    "total": [
+     "A los 63",
+     "1.185 €"
+    ],
+    "top": 420
+   }
+  },
+  {
+   "tipo": "cifra",
+   "voz": "Con catorce pagas, son cuatro mil cuatrocientos diez euros menos cada año.",
+   "p": {
+    "intro": "Cada año:",
+    "hasta": 4410,
+    "prefijo": "−",
+    "sufijo": " €",
+    "color": "rojo",
+    "pie": "14 pagas × 315 €",
+    "icono": "hucha",
+    "cara": "o"
+   }
+  },
+  {
+   "tipo": "balanza",
+   "voz": "A cambio, cobras dos años antes: unos treinta y tres mil euros que no tendrías.",
+   "p": {
+    "texto": "¿Compensa [cobrar antes]?",
+    "izq": {
+     "etiqueta": "cobras antes",
+     "valor": "+33.180 €"
+    },
+    "der": {
+     "etiqueta": "pierdes al año",
+     "valor": "−4.410 €",
+     "color": "rojo"
+    },
+    "inclina": -8
+   }
+  },
+  {
+   "tipo": "contador",
+   "voz": "Pero esa ventaja se agota en siete años y medio. A partir de los setenta y dos y medio, sales perdiendo.",
+   "p": {
+    "desde": 65,
+    "hasta": 72.5,
+    "dec": 1,
+    "sufijo": " años",
+    "pie": "sin contar subidas de pensión",
+    "intro": "Empiezas a perder a los",
+    "ejeIni": "65",
+    "ejeFin": "72,5",
+    "tam": 170,
+    "rojo": true
+   },
+   "enfasis": [
+    "perdiendo"
+   ]
+  },
+  {
+   "tipo": "cita",
+   "voz": "Jubilarte antes no es gratis. Lo pagas cada mes.",
+   "p": {
+    "texto": "Jubilarte antes no es gratis. {Lo pagas} [cada mes]."
+   },
+   "enfasis": [
+    "mes"
+   ]
+  },
+  {
+   "tipo": "cierre",
+   "voz": "¿Y qué pasa si tu banco quiebra con tu dinero dentro? Te lo cuento en el próximo vídeo. Sígueme para no perdértelo.",
+   "p": {
+    "texto": "Próximo: ¿y si tu banco [quiebra]?"
+   }
+  }
+ ]
+}

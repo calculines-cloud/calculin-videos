@@ -1,0 +1,188 @@
+{
+ "id": "028-billete-2002",
+ "titulo_corto": "Tu billete de 50 € de 2002",
+ "fuente": "INE, «El IPC en un clic» (base 2025): IPC general enero 2002 → octubre 2026 +79,9 %",
+ "entrada_ya": true,
+ "escenas": [
+  {
+   "tipo": "comparar",
+   "voz": "Tu billete de cincuenta euros del año dos mil dos hoy compra lo que veintisiete.",
+   "p": {
+    "a": {
+     "etiqueta": "Billete de 2002",
+     "valor": "50 €",
+     "num": 50
+    },
+    "b": {
+     "etiqueta": "Lo que compra hoy",
+     "valor": "≈27,8 €"
+    },
+    "ratio": 0.556,
+    "colorB": "rojo"
+   }
+  },
+  {
+   "tipo": "grande",
+   "voz": "Casi la mitad de lo que compraba, desaparecida.",
+   "p": {
+    "texto": "−44 %",
+    "sub": "de lo que compraba"
+   },
+   "enfasis": [
+    "desaparecida"
+   ]
+  },
+  {
+   "tipo": "linea",
+   "voz": "El euro llegó a los bolsillos en enero de dos mil dos. Miramos hasta octubre de dos mil veintiséis.",
+   "p": {
+    "titulo": "Del euro a hoy",
+    "puntos": [
+     "Enero 2002",
+     "Octubre 2026",
+     "[+79,9 %]"
+    ],
+    "dur": 0.6
+   }
+  },
+  {
+   "tipo": "contador",
+   "voz": "Desde entonces, los precios han subido un setenta y nueve coma nueve por ciento, según el INE.",
+   "p": {
+    "desde": 0,
+    "hasta": 79.9,
+    "dec": 1,
+    "prefijo": "+",
+    "sufijo": " %",
+    "pie": "IPC general · INE · ene-2002 → oct-2026",
+    "intro": "Precios desde el euro:",
+    "ejeIni": "2002",
+    "ejeFin": "2026",
+    "tam": 200
+   }
+  },
+  {
+   "tipo": "planta",
+   "voz": "Parece mucho, pero es un dos coma cuatro por ciento al año, de media. Poco a poco, durante casi veinticinco años.",
+   "p": {
+    "texto": "≈2,4 % al año… [casi 25 años]"
+   },
+   "enfasis": [
+    "poco"
+   ]
+  },
+  {
+   "tipo": "precio",
+   "voz": "Lo que en dos mil dos costaba cincuenta euros, hoy cuesta casi noventa.",
+   "p": {
+    "titulo": "La [misma] compra",
+    "antes": "2002",
+    "despues": "Oct. 2026",
+    "desde": 50,
+    "hasta": 89.95,
+    "dec": 2
+   }
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Y cuánto valen hoy cien euros de dos mil dos?",
+   "p": {
+    "texto": "¿Y [100 €] de 2002?",
+    "icono": "hucha"
+   }
+  },
+  {
+   "tipo": "cifra",
+   "voz": "Unos cincuenta y cinco. El resto se lo ha comido la subida de precios.",
+   "p": {
+    "intro": "Hoy compran como:",
+    "desde": 100,
+    "hasta": 55,
+    "prefijo": "≈",
+    "sufijo": " €",
+    "color": "rojo",
+    "pie": "en euros de 2002",
+    "icono": "hucha",
+    "cara": "o"
+   },
+   "enfasis": [
+    "comido"
+   ]
+  },
+  {
+   "tipo": "iconos",
+   "voz": "De cada diez billetes de cincuenta de entonces, hoy te llega para lo que compraban cinco y medio.",
+   "p": {
+    "texto": "10 billetes → [compran como 5,5]",
+    "n": 5.56,
+    "icono": "billete",
+    "cols": 5
+   }
+  },
+  {
+   "tipo": "balanza",
+   "voz": "El billete es el mismo: mismo papel, mismo número. Lo que ha cambiado es lo que pesa.",
+   "p": {
+    "texto": "[Mismo billete]",
+    "izq": {
+     "etiqueta": "2002",
+     "valor": "50 €"
+    },
+    "der": {
+     "etiqueta": "2026",
+     "valor": "≈27,8 €",
+     "color": "rojo"
+    },
+    "inclina": -12
+   },
+   "enfasis": [
+    "pesa"
+   ]
+  },
+  {
+   "tipo": "frase",
+   "voz": "Fíjate: es la media del IPC. Lo que tú compras puede haber subido más, o menos.",
+   "p": {
+    "texto": "Es [la media] del IPC",
+    "icono": "carrito"
+   }
+  },
+  {
+   "tipo": "ticket",
+   "voz": "Para comprar hoy lo mismo que con cincuenta euros en dos mil dos, te hacen falta casi cuarenta más.",
+   "p": {
+    "titulo": "PARA EMPATAR",
+    "filas": [
+     [
+      "Billete de 2002",
+      "50 €"
+     ],
+     [
+      "Precios +79,9 %",
+      "+39,95 €",
+      "rojo"
+     ]
+    ],
+    "total": [
+     "Hace falta",
+     "89,95 €"
+    ],
+    "top": 420
+   }
+  },
+  {
+   "tipo": "cita",
+   "voz": "Veinticuatro años después, el billete sigue entero. Lo que compra, no.",
+   "p": {
+    "texto": "El billete sigue entero. {Lo que compra,} [no]."
+   }
+  },
+  {
+   "tipo": "cierre",
+   "voz": "¿Y qué pasa si te suben el alquiler este año? Te lo cuento en el próximo vídeo. Sígueme para no perdértelo.",
+   "p": {
+    "texto": "Próximo: ¿y si te suben [el alquiler]?"
+   }
+  }
+ ]
+}
